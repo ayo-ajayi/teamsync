@@ -102,3 +102,4 @@ type IUserRepo interface {
 	GetUsers(filter interface{}) ([]*User, error)
 	UserIsExists(filter interface{}) (bool, error)
 }
+
